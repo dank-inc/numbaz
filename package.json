@@ -1,11 +1,11 @@
 {
   "name": "@dank-inc/numbaz",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "The Dankest Number Library written with Typescript",
   "files": [
     "lib"
   ],
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "lint": "tsc --noEmit",
     "compile": "rm -rf lib && tsc",
