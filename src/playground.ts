@@ -1,4 +1,4 @@
-import { Rando } from './lib/index'
+import { Rando } from '.'
 import { forN } from '@dank-inc/lewps'
 
 console.log(Rando.item([1, 2, 3, 'a', 'b', 'c']))
