@@ -1,6 +1,6 @@
 {
   "name": "@dank-inc/numbaz",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "The Dankest Number Library written with Typescript",
   "files": [
     "lib"
@@ -15,6 +15,7 @@
   "author": "Elijah Lucian",
   "license": "MIT",
   "devDependencies": {
+    "@dank-inc/lewps": "^0.10.1",
     "typescript": "^4.2.3"
   }
 }

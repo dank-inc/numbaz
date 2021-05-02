@@ -1,4 +1,6 @@
-export const num = () => Math.random()
+export const num = (scale = 1, offset = 0) => Math.random() * scale + offset
+
+export const range = (min = 0, max = 1) => Math.random() * (max - min) + min
 
 export const normal = (scale = 1, offset = 0) =>
   (num() - 0.5) * 2 * scale + offset
