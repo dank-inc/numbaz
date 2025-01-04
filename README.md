@@ -1,5 +1,11 @@
 # Numbaz
 
+[NPM](https://www.npmjs.com/package/@dank-inc/numbaz)
+
+```
+npm install @dank-inc/numbaz
+```
+
 # API
 
 ```ts
