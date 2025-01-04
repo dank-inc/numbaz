@@ -1,6 +1,6 @@
 # Numbaz
 
-[NPM](https://www.npmjs.com/package/@dank-inc/numbaz)
+[![npm version](https://badge.fury.io/js/@dank-inc%2Fnumbaz.svg)](https://badge.fury.io/js/@dank-inc%2Fnumbaz)
 
 ```
 npm install @dank-inc/numbaz
