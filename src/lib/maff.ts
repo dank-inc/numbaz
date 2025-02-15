@@ -31,3 +31,7 @@ export const r: Scaler = (scale = 1, offset = 0) =>
 
 export const n: Scaler = (scale = 1, offset = 0) =>
   Math.random() * scale + offset
+
+export const quantize = (input: number, step: number) => {
+  return Math.round(input / step) * step
+}
