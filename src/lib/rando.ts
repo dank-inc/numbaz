@@ -1,6 +1,8 @@
-export const num = (scale = 1, offset = 0) => Math.random() * scale + offset
+export const r = () => Math.random()
 
-export const range = (min = 0, max = 1) => Math.random() * (max - min) + min
+export const num = (scale = 1, offset = 0) => r() * scale + offset
+
+export const range = (min = 0, max = 1) => r() * (max - min) + min
 
 export const int = (min = 0, max = 42) => Math.floor(range(min, max))
 
